@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Entrez un nombre :" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="numberBox" HorizontalAlignment="Left" Height="23" Margin="129,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="onKeyDown"/>
+
+    </Grid>
+</Window>
